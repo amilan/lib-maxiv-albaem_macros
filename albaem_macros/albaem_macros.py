@@ -25,6 +25,7 @@ import socket
 
 from sardana.macroserver.macro import macro, Type, Macro
 
+import time
 
 class EMSocket(socket.socket):
     FAMILY = socket.AF_INET
@@ -71,6 +72,6 @@ class set_albaem_mode(Macro):
             a2 = MODE & 4 > 0
             msg = "A0: {0}, A1: {1}, A2: {2}".format(a0, a1, a2)
             self.output(msg)
-            # print a0, a1, a2
+            time.sleep(1)
             cmd = "IOPO05:VALU %d;IOPO06:VALU %d;IOPO07:VALU %d\n" % (a0, a1, a2)
             ems.send(cmd)

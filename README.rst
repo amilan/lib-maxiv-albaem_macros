@@ -7,6 +7,8 @@ Description
 
 Sardana macros for the new alba electrometer (EM#)
 
+This project is still under development.
+
 Usage
 -----
 
@@ -21,7 +23,6 @@ lib-maxiv-albaem_macros licenced under GPL v3.
 Authors
 -------
 
-lib-maxiv-albaem_macros was written by antmil.
+lib-maxiv-albaem_macros was written by amilan.
 
 antonio.milan_otero@maxiv.lu.se
-
