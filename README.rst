@@ -24,5 +24,3 @@ Authors
 -------
 
 lib-maxiv-albaem_macros was written by amilan.
-
-antonio.milan_otero@maxiv.lu.se
